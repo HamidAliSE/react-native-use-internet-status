@@ -1,21 +1,19 @@
 import { Text, View } from 'react-native';
-import { useInternetStatus } from './useInternetStatus';
+import useInternetStatus from './useInternetStatus';
 
 const Usage = () => {
     const { isConnected } = useInternetStatus();
+
+    if (isConnected === null) {
+        return <Text>Checking connection...</Text>;
+    }
 
     return (
         <View>
             {isConnected ? (
                 <Text>You are Online ✅</Text>
             ) : (
-                <>
-                    {isConnected === null ? (
-                        <Text>Loading...</Text>
-                    ) : (
-                        <Text>No Internet Connection ❌</Text>
-                    )}
-                </>
+                <Text>No Internet Connection ❌</Text>
             )}
         </View>
     );
