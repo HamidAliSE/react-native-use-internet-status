@@ -1,16 +1,16 @@
 {
     "name": "react-native-use-internet-status",
-    "version": "1.0.0",
-    "description": "A simple React Native hook to check internet connectivity using @react-native-community/netinfo.",
+    "version": "0.1.0",
+    "description": "A lightweight React Native hook to check if the device is connected to the internet.",
     "main": "index.js",
     "keywords": [
         "react-native",
         "hook",
         "internet",
-        "connectivity",
+        "network",
         "netinfo"
     ],
-    "author": "Hamid Ali",
+    "author": "Hamid Ali <hamidalig942@gmail.com>",
     "license": "MIT",
     "peerDependencies": {
         "@react-native-community/netinfo": ">=9.0.0"
