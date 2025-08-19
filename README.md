@@ -27,5 +27,32 @@ npm install @react-native-community/netinfo
 yarn add @react-native-community/netinfo
 ```
 
+## Usage
+Import the hook and use it in your component to track internet connectivity:
+```
+import { Text, View } from 'react-native';
+import useInternetStatus from 'react-native-use-internet-status';
+
+const App = () => {
+    const { isConnected } = useInternetStatus();
+
+    if (isConnected === null) {
+        return <Text>Checking connection...</Text>;
+    }
+
+    return (
+        <View>
+            {isConnected ? (
+                <Text>You are Online ✅</Text>
+            ) : (
+                <Text>No Internet Connection ❌</Text>
+            )}
+        </View>
+    );
+};
+
+export default App;
+```
+
 ## License
 This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) for more details.
