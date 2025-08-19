@@ -1,5 +1,10 @@
 # react-native-use-internet-status
-A simple React Native hook to check if the device is connected to the internet.  
+A simple React Native hook to check if the device is connected to the internet.
+
+## Features
+- 🔌 Simple hook to check internet connectivity in React Native.
+- ⚡ Lightweight and built on top of `@react-native-community/netinfo`.
+- 🛠️ Easy to integrate in any project – just import and use.
 
 ## Installation
 You can install the package using either **npm** or **yarn**:
