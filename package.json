@@ -1,0 +1,26 @@
+{
+    "name": "react-native-use-internet-status",
+    "version": "1.0.0",
+    "description": "A simple React Native hook to check internet connectivity using @react-native-community/netinfo.",
+    "main": "index.js",
+    "keywords": [
+        "react-native",
+        "hook",
+        "internet",
+        "connectivity",
+        "netinfo"
+    ],
+    "author": "Hamid Ali",
+    "license": "MIT",
+    "peerDependencies": {
+        "@react-native-community/netinfo": ">=9.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HamidAliSE/react-native-use-internet-status.git"
+    },
+    "bugs": {
+        "url": "https://github.com/HamidAliSE/react-native-use-internet-status/issues"
+    },
+    "homepage": "https://github.com/HamidAliSE/react-native-use-internet-status#readme"
+}
