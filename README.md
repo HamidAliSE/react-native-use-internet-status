@@ -17,3 +17,5 @@ npm install @react-native-community/netinfo
 ```
 yarn add @react-native-community/netinfo
 ```
+## License
+This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.
